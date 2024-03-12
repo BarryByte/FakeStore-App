@@ -84,5 +84,7 @@ public class ProductService {
     public String[] getCategories(){
     String[] response = restTemplate.getForObject(url + "/products/categories", String[].class);
     return response;
-}
+    }
+
+    //this is a change.
 }
